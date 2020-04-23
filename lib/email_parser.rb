@@ -5,11 +5,12 @@
 
 class EmailAddressParser
   
+  attr_accessor :emails, :parser 
+  
   def initialize(emails)
     email_addresses = "john@doe.com, person@somewhere.org"
     parser = EmailAddressParser.new(email_addresses)
- 
-    
+    parser.parse
 end
   end
   

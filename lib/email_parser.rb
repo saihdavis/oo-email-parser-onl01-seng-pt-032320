@@ -15,3 +15,4 @@ class EmailAddressParser
     email.parse(" , ")
   
 end
+end

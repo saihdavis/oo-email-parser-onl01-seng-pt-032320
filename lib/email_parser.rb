@@ -9,8 +9,9 @@ class EmailAddressParser
   
   def initialize(email)
     @email = email
-    email_address = self.new
+    
   end
-  
+  def parse
+    email.delete()
   
 end
